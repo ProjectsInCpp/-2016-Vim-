@@ -1,0 +1,21 @@
+Location on .vimrc:
+/c/Users/pkorycin
+
+Sides(In command line):
+1) vim -o file1.hpp file2.hpp // open files in vertical split
+2) vim -O file1.hpp file2.hpp // open files in hotizontal split
+3) vim -p file1.hpp file2.hpp // open files in other tabs
+
+(In vim):
+3) Ctrl+W + V // create horizontal split
+4) Ctrl+W + S // create vertical split
+5) Ctrl+W + Arrow // switch on screen in the direction
+6) Ctrl+W + Q // close current split 
+7) Ctrl+PgUp // switch to the next tab
+8) Ctrl+PgDn // switch to the previous tab
+
+(In vim):
+Open files:
+1) :find file1.hpp // open file in current vim screen, tab works here
+2) :tabfind file1.hpp // open file in next tab
+
