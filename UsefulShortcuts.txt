@@ -20,9 +20,15 @@ Open files:
 2) :tabfind file1.hpp // open file in next tab
 
 (In vim):
-Search:
+Select:
 1) v // select with own decision
 2) V // select current line
+3) Shift + V // select Visual lines
+
+(In vim):
+Search:
+1) :%s/pattern1/pattern2/g // search and replace in all lines
+2) :s/pattern1/pattern2/g // search and replace in current lines
 
 (In vim):
 1) u // undo change
