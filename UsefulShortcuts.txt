@@ -19,3 +19,12 @@ Open files:
 1) :find file1.hpp // open file in current vim screen, tab works here
 2) :tabfind file1.hpp // open file in next tab
 
+(In vim):
+Search:
+1) v // select with own decision
+2) V // select current line
+
+(In vim):
+1) u // undo change
+2) Ctrl+R // redo change
+
