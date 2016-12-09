@@ -1,5 +1,9 @@
-Location on .vimrc:
+Location on .vimrc and .vim/plugin:
 /c/Users/pkorycin
+
+Go to the header and .cpp:
+(In vim)
+1) :A // as in title, requierement is a.vim passed in .vim/plugin
 
 Sides(In command line):
 1) vim -o file1.hpp file2.hpp // open files in vertical split
