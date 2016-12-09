@@ -23,7 +23,8 @@ Open files:
 Select:
 1) v // select with own decision
 2) V // select current line
-3) Shift + V // select Visual lines
+3) Shift + V // select lines
+4) Ctrl + V // select block in Visual
 
 (In vim):
 Search:
