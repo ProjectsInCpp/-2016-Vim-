@@ -55,7 +55,8 @@ Cursor:
 10) b - move to the beginning of previous word
 11) G - go to the end of file
 12) gg - go to beginning of file
-
+13) ^ - go to the beginning of line
+14) $ - go to the end of line
 
 Search:
 1) :%s/pattern1/pattern2/g - search and replace in all lines
@@ -81,4 +82,9 @@ InsertMode/ Cursor:
 Register:
 1) Select + "ry - yank to register (where r is idx of register)
 2) "rp - paste from register (where r is idx of register)
+
+
+VariousOther:
+1) Ctrl + a - incremenent number
+2) Ctrl + x - decrement number
 
