@@ -38,4 +38,12 @@ Search:
 (In vim):
 1) u // undo change
 2) Ctrl+R // redo change
+3) a // insert mode in place after carret
+4) A // insert mode at the and of line
+5) i // insert mode in current place
+6) I // insert mode at the begin of line
+7) o // open blank link below current line
+8) O // open blank link above current line
+9) w // move to the begin of next word
+10) b // move to the begin of previous word
 
