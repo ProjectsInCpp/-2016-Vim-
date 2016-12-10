@@ -2,48 +2,72 @@ Location on .vimrc and .vim/plugin:
 /c/Users/pkorycin
 
 Go to the header and .cpp:
-(In vim)
-1) :A // as in title, requierement is a.vim passed in .vim/plugin
+1) :A - as in title, requierement is a.vim passed in .vim/plugin
 
-Sides(In command line):
-1) vim -o file1.hpp file2.hpp // open files in vertical split
-2) vim -O file1.hpp file2.hpp // open files in hotizontal split
-3) vim -p file1.hpp file2.hpp // open files in other tabs
+Side:
+1) vim -o file1.hpp file2.hpp - open files in vertical split
+2) vim -O file1.hpp file2.hpp - open files in hotizontal split
+3) vim -p file1.hpp file2.hpp - open files in other tabs
 
-(In vim):
-3) Ctrl+W + V // create horizontal split
-4) Ctrl+W + S // create vertical split
-5) Ctrl+W + Arrow // switch on screen in the direction
-6) Ctrl+W + Q // close current split 
-7) Ctrl+PgUp // switch to the next tab
-8) Ctrl+PgDn // switch to the previous tab
+Splits/ Tabs:
+3) Ctrl+W + V - create horizontal split
+4) Ctrl+W + S - create vertical split
+5) Ctrl+W + Arrow - switch on screen in the direction
+6) Ctrl+W + Q - close current split 
+7) Ctrl+PgUp - switch to the next tab
+8) Ctrl+PgDn - switch to the previous tab
 
-(In vim):
 Open files:
-1) :find file1.hpp // open file in current vim screen, tab works here
-2) :tabfind file1.hpp // open file in next tab
+1) :find file1.hpp - open file in current vim screen, tab works here
+2) :tabfind file1.hpp - open file in next tab
 
-(In vim):
-Select:
-1) v // select with own decision
-2) V // select current line
-3) Shift + V // select lines
-4) Ctrl + V // select block in Visual
+Select/ Copy / Paste:
+1) v - select with own decision
+2) V - select current line
+3) Shift + V - select lines
+4) Ctrl + V - select block in Visual
+5) yy - yank selection ( if not selected, current line, to 1 size clipboar)
+6) p - paste from clipboard
+7) . - to reply previous action
+8) cw - change word
+9) C - change current line
+10) cis - change current segment
 
-(In vim):
+Cursor:
+1) u - undo change
+2) Ctrl+R - redo change
+3) a - insert mode in place after carret
+4) A - insert mode at the and of line
+5) i - insert mode in current place
+6) I - insert mode at the beginning of line
+7) o - open blank link below current line
+8) O - open blank link above current line
+9) w - move to the beginning of next word
+10) b - move to the beginning of previous word
+11) G - go to the end of file
+12) gg - go to beginning of file
+
 Search:
-1) :%s/pattern1/pattern2/g // search and replace in all lines
-2) :s/pattern1/pattern2/g // search and replace in current lines
+1) :%s/pattern1/pattern2/g - search and replace in all lines
+2) :s/pattern1/pattern2/g - search and replace in current lines
+3) /pattern // search in code
+	a) n - next occurence
+	b) N - previous occurence
 
-(In vim):
+InsertMode/ Cursor:
 1) u // undo change
 2) Ctrl+R // redo change
-3) a // insert mode in place after carret
-4) A // insert mode at the and of line
-5) i // insert mode in current place
-6) I // insert mode at the begin of line
-7) o // open blank link below current line
-8) O // open blank link above current line
-9) w // move to the begin of next word
-10) b // move to the begin of previous word
+3) a - insert mode in place after carret
+4) A - insert mode at the and of line
+5) i - insert mode in current place
+6) I - insert mode at the beginning of line
+7) o - open blank link below current line
+8) O - open blank link above current line
+9) w - move to the beginning of next word
+10) b - move to the beginning of previous word
+
+
+Register:
+1) Select + "ry - yank to register (where r is idx of register)
+2) "rp - paste from register (where r is idx of register)
 
