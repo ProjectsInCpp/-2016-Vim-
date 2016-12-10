@@ -13,12 +13,20 @@ Side:
 
 
 Splits/ Tabs:
-3) Ctrl+W + V - create horizontal split
-4) Ctrl+W + S - create vertical split
-5) Ctrl+W + Arrow - switch on screen in the direction
-6) Ctrl+W + Q - close current split 
-7) Ctrl+PgUp - switch to the next tab
-8) Ctrl+PgDn - switch to the previous tab
+1) Ctrl+W + V - create horizontal split
+2) Ctrl+W + S - create vertical split
+3) Ctrl+W + Arrow - switch on screen in the direction
+4) Ctrl+W + Q - close current split 
+5) Ctrl+PgUp - switch to the next tab
+6) Ctrl+PgDn - switch to the previous tab
+7) :sp filePath - open file in horizontal split ( ../ works )
+8) :vsp filePath - open file in vertical split ( ../ works )
+
+
+Explore:
+1) :Explore - open file explorer
+2) :Sexplore - open file explorer in vertical split
+3) :Texplore - open file explorer in new tab
 
 
 Open files:
@@ -36,11 +44,13 @@ Select/ Copy/ Delete/ Paste:
 7) . - to reply previous action
 8) cw - change word
 9) C - change current line
-10) cis - change current segment
-11) :10,12d - delete lines from 10-12 inclusive
-12) :m 11 - move current line after 11 line
-13) :m .+1 - move current line below
-14) :m .-2 - move current line above
+10) x - == delete
+11) D - delete to the end of line
+12) cis - change current segment
+13) :10,12d - delete lines from 10-12 inclusive
+14) :m 11 - move current line after 11 line
+15) :m .+1 - move current line below
+16) :m .-2 - move current line above
 
 Cursor:
 1) u - undo change
