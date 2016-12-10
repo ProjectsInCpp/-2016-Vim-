@@ -38,8 +38,9 @@ Select/ Copy/ Delete/ Paste:
 9) C - change current line
 10) cis - change current segment
 11) :10,12d - delete lines from 10-12 inclusive
-11) :m 11 - move current line after 11 line
-
+12) :m 11 - move current line after 11 line
+13) :m .+1 - move current line below
+14) :m .-2 - move current line above
 
 Cursor:
 1) u - undo change
