@@ -1,0 +1,2 @@
+Explore:
+1) cd - - go to the previous location

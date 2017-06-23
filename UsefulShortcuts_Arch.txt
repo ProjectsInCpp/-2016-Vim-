@@ -1,0 +1,6 @@
+Explore:
+1) cd - - go to the previous location
+
+System:
+1) whoami
+2) uname - linux version, kernel etc
