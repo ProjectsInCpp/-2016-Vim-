@@ -1,7 +1,0 @@
-let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =5
-let g:netrw_dirhist_1='/var/fpwork/pkorycin/HAS/ECL'
-let g:netrw_dirhist_2='/var/fpwork/pkorycin/DEM/BRANCH_ADAPT_@'
-let g:netrw_dirhist_3='/home/pkorycin/.vim'
-let g:netrw_dirhist_4='/home/pkorycin/.vim/autoload'
-let g:netrw_dirhist_5='/var/fpwork/pkorycin/REM/TRUNK_NEW/rem/test/sct/testcases/GainController'
