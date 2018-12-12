@@ -6,6 +6,8 @@ set hidden
 set laststatus=2
 set mouse=a
 set number
+set hlsearch
+set ignorecase
 
 nmap <C-f> :Lines<ENTER>
 nmap <C-g> :Ag<ENTER>
