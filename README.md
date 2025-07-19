@@ -7,8 +7,13 @@ export PS1="\[\e[01;37m\]\u\[\e[0m\]\[\e[00;37m\]@\h:[\[\e[0m\]\[\e[00;33m\]\w\[
 
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
 
+# arch based
 sudo pacman --sync the_silver_searcher // for ag ( CTRL + G )
 sudo pacman --sync fzf
+
+# debian based
+sudo apt-get install -y silversearcher-ag
+sudo apt-get install fzf
 
 Modify the .fzf.bash
 Change the paths on the real ones
